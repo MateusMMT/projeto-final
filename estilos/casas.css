@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+/* #menu{
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  height: 100px;
+  width:100%;
+  padding-top: 10px;
+} */
+
+
+#menu{
+  float: bottom;
+  width: 1200px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.botoes_esquerda{
+  text-align: left;
+  width: 400px;
+  background-color: #ffffff;
+  margin-left: 50px;
+  height: 50px;
+  float: left;
+}
+
+.casas {
+  float: left;
+  margin-right: 20px;
+  outline: none;
+}
+
+
+
+.logo{
+  text-align:center;
+  width: 400px;
+  float: center;
+}
+
+.botoes_direita{
+  text-align: right;
+  width: 400px;
+  background-color: #ffffff;
+}
+
+body{
+    background-image: url(../Imagens/background_image.png);
+    background-position: 80%;
+    background-attachment: fixed;
+    background: linear-gradient(to bottom, rgba(233, 233, 233, 0), rgb(5, 5, 5)), url(../Imagens/background_image.png) no-repeat center top fixed;
+    background-size: cover;
+    margin: 0%;
+}
+
+
+.tituloCasas{
+
+    justify-content: center;
+    display: flex;
+    padding-top: 120px;
+    height: 8vh;
+    font-size: 60px;
+    align-items: center;
+    font-family:;
+    color: #ffffff;
+}
+
+.apresentacoesCasas{
+    font-size: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+
+
+#brasoesCasas {
+    margin-top: 8%;
+    list-style-type: none;
+    display: flex;
+    max-width: 100%;
+    justify-content: space-evenly;
+  }
+
+ 
+  #brasoesCasas li {
+    transition: width 0.5s;
+    width: auto;
+    height: 500px;
+    margin: 0px;
+    text-align: center;
+    flex-direction: row;
+    line-height: 1;
+  }
+  
+  #brasoesCasas .grifinoria {
+    flex-grow: 1;
+    
+  }
+  
+  #brasoesCasas .sonserina{
+    flex-grow: 2;
+  }
+  
+  #brasoesCasas .lufaLufa{
+    flex-grow: 3;
+  }
+  
+  #brasoesCasas .corvinal{
+    flex-grow: 4;
+  }
+  
+  #brasoesCasas li:hover {
+    transform:scale(1.1) ;
+  }
+
+ 
+ footer{
+    background-color:#1C1C1E;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    box-sizing:border-box;
+ }
+  .simboloFooter{
+    width: 80px;
+    
+ }

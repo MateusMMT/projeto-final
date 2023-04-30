@@ -1,0 +1,154 @@
+@charset "UTF-8";
+
+.casa{
+    text-align: center;
+    font-size: 70px;
+    margin-bottom: 30px;
+}
+
+.poema{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.historia{
+    display: block;
+    margin: auto;
+    width: 959px;
+    height: 642px;
+}
+
+.historia img{
+    float: left;
+    margin-right: 30px;
+    border-radius: 5%;
+    height: 500px;
+    width: 340px;
+}
+
+.historia h2{
+    font-size: 20px;
+    margin-top: 30px;
+    text-align: left;
+}
+
+.simbolo{
+    display: block;
+    margin: auto;
+    width: 959px;
+    height: 642px;
+}
+
+.simbolo img{
+    float: right;
+    margin-right: 30px;
+    margin-left: 5px;
+    border-radius: 5%;
+    height: 520.6px;
+    width: 340px;
+}
+
+.texto_simbolo{
+    width: 839px;
+    align-items: center;
+}
+
+.texto_simbolo h2{
+    font-size: 20px;
+    margin-top:0;
+    text-align: left;
+}
+
+.sala_comunal{
+    display: block;
+    margin: auto;
+    width: 959px;
+    height: 220px;
+}
+
+.sala_comunal img{
+    float: left;
+    margin-right: 30px;
+    border-radius: 5%;
+    height: 214px;
+    width: 426px;
+}
+
+.sala_comunal h2{
+    font-size: 20px;
+    margin-top: 30px;
+    text-align: left;
+}
+
+.caracteristicas_estudantes{
+    text-align: center;
+    margin-left: 260px;
+    margin-top: 120px;
+    width: 801px;
+    height: 325px;
+}
+
+.h2{ 
+    text-align: center;
+    align-items: center;
+    margin-left: 50%;
+}
+
+.estudantes_famosos{
+    flex-direction: row;
+    margin-left: 340px;
+    margin-top: 80px;
+}
+
+.cedrico_diggory{
+    flex-grow: 1;
+    width: 150px;
+    float: left;
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.cedrico_diggory img{
+    width: 150px;
+    height:auto;
+}
+
+.ninfadora_tonks{
+    flex-grow: 2;
+    width: 150px;
+    float: left;
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.ninfadora_tonks img{
+    width: 150px;
+    height:auto;
+}
+
+.newt_scamander{
+    flex-grow: 3;
+    width: 150px;
+    float: left;
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.newt_scamander img{
+    width: 150px;
+    height:auto;
+}
+
+.hengist_woodcroft{
+    flex-grow: 4;
+    width: 150px;
+    height: 417.22px;
+    float: left;
+}
+
+.hengist_woodcroft img{
+    width: 150px;
+    height:auto;
+}
+
+

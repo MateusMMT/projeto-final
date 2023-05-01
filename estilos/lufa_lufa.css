@@ -1,14 +1,24 @@
 @charset "UTF-8";
 
+body{
+    background-position: 80%;
+    background-attachment: fixed;
+    background: linear-gradient(to bottom, rgba(233, 233, 233, 0), rgb(5, 5, 5)), url(../Imagens/plano_de_fundo_lufa_lufa.png) no-repeat center top fixed;
+    background-size: cover;
+    margin: 0%;
+}
+
 .casa{
     text-align: center;
     font-size: 70px;
     margin-bottom: 30px;
+    color: #F2F2F2;
 }
 
 .poema{
     text-align: center;
     margin-bottom: 100px;
+    color: #F2F2F2;
 }
 
 .historia{
@@ -16,6 +26,7 @@
     margin: auto;
     width: 959px;
     height: 642px;
+    color: #ffffff;
 }
 
 .historia img{
@@ -37,6 +48,7 @@
     margin: auto;
     width: 959px;
     height: 642px;
+    color: #ffffff;
 }
 
 .simbolo img{
@@ -64,6 +76,7 @@
     margin: auto;
     width: 959px;
     height: 220px;
+    color: #ffffff;
 }
 
 .sala_comunal img{
@@ -86,6 +99,7 @@
     margin-top: 120px;
     width: 801px;
     height: 325px;
+    color: #ffffff;
 }
 
 .h2{ 
@@ -98,6 +112,7 @@
     flex-direction: row;
     margin-left: 340px;
     margin-top: 80px;
+    color: #ffffff;
 }
 
 .cedrico_diggory{
@@ -151,4 +166,18 @@
     height:auto;
 }
 
+footer{
+    
+    background-color:#1C1C1E;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    box-sizing:border-box;
+
+ }
+  
+.simboloFooter{
+    width: 80px;
+    
+ }
 
